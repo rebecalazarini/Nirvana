@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirvana Shop</title>
+    
+</head>
+<body>
+
+
+    <div class="banner">
+      <h2>Seja Bem Vindo(a)</h2>
+      
+  </div>
+
+    <header class="header">
+       <img src="https://st2.depositphotos.com/51060828/48393/v/450/depositphotos_483934942-stock-illustration-cover-rock-lagend-nirvana.jpg">
+       <h2> Aproveite nossas ofertas!!</h2>
+    </header>
+    
+    <div class="content">
+        <section id="Produtos">
+            <h2>Nossos produtos</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="blusa.jpeg" alt="Camiseta P,M,G e GG">
+                    <h3>Camiseta P,M,G e GG</h3>
+                    <p>R$150,99</p>
+                </div>
+                <div class="product-item">
+                    <img src="caneca.jpeg" alt="Caneca de Porcelana">
+                    <h3>Caneca de Porcelana</h3>
+                    <p>R$37,90</p>
+                    </div>
+                    
+                <div class="product-item">
+                    <img src="quadro.jpeg" alt="cama azul com tapete">
+                    <h3>Quadro com verniz</h3>
+                    <p>R$90,00</p>
+                    </div>
+
+                 <div class="product-item">
+                    <img src="mochila.jpeg" alt="mochila cinza">
+                    <h3>Mochila Cinza </h3>
+                    <p>R$114,80</p>
+                    </div>
+                    
+                    <div class="product-item">
+                    <img src="moletom.jpeg" alt="moletom">
+                    <h3>moletom </h3>
+                    <p>R$120,00</p>
+                    </div>
+
+                    <div class="product-item">
+                      <img src="colar.jpeg" alt="Colar">
+                      <h3>Colar </h3>
+                      <p>R$24,90</p>
+                      </div>
+
+                    
+
+                      
+
+                </div>
+        
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Nirvana </p>
+    </footer>
+<style>
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  body {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin: 0;
+      padding:0;
+      overflow-x: hidden;
+      background-color: black;
+  
+  }
+  
+  .header {
+      background: url('header.jpg') no-repeat center center/cover;
+      color:white;
+      padding: 100px 20px;
+      text-align: center;
+      background: black;
+  
+  }
+  .pet {
+      align-items:center;
+      width: 200px;
+      height: 200px;
+  }
+  
+  .banner{
+    background-color: #FFD700;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    transform: translateY(-20px);
+    transition: opacity 1.0s ease, transform 1.0s ease;
+    animation: fadeInDown 1.0s forwards;
+  }
+  .banner h2{
+    color: rgb(0, 0, 0);
+  }
+  @keyframes fadeInDown {
+      from {
+          opacity: 0;
+          transform: translateY(-20px);
+      }
+      to {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
+  .content {
+      padding: 20px;
+      color: #FFD700;
+  }
+  h2{
+      color: #FFD700;
+      margin-top: 40px;
+  
+  }
+  .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+  }
+  
+  .product-item {
+      background-color: #000000;
+      border: 1px solid #FFD700;
+      border-radius: 5px;
+      padding: 10px;
+      text-align: center;
+      width: 200px;
+  }
+  .product-item img {
+      width: 100%;
+      border-radius: 5px;
+  }
+  .footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #343a40;
+      color:white;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+  }
+</style>
+
+</body>
+</html>
